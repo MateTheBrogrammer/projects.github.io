@@ -1,0 +1,125 @@
+body {
+	background-color: #1E1E1E;
+	font-family: sans-serif;
+}
+
+.title {
+	text-transform: uppercase;
+	color: white;
+	font-size: 44px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	position: absolute;
+	left: 50%;
+	top: 30px;
+	transform: translateX(-50%);
+}
+
+.box {
+	width: 450px;
+	height: 70px;
+	background-color: white;
+	border-radius: 5px;
+	
+	-webkit-box-shadow: inset 2px 2px 9px 1px rgba(0,0,0,0.69);
+	-moz-box-shadow: inset 2px 2px 9px 1px rgba(0,0,0,0.69);
+	box-shadow: inset 2px 2px 9px 1px rgba(0,0,0,0.69);
+}
+
+.boxes .box:not(:last-child) {
+  margin-bottom: 30px; 
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  margin-top: 200px;
+  padding: 0 10px;
+}
+
+
+.projectTitles {
+	color: #1E1E1E;
+	font-size: 20px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+#one {
+	position: relative;
+	left: 20%;
+	top: 35%;
+}
+
+#two {
+	position: relative;
+	left: 35%;
+	top: 35%;
+}
+
+#three {
+	position: relative;
+	left: 20%;
+	top: 35%;
+}
+
+#four {
+	position: relative;
+	left: 25%;
+	top: 35%;
+}
+
+#five {
+	position: relative;
+	left: 20%;
+	top: 35%;
+}
+
+#six {
+	position: relative;
+	left: 30%;
+	top: 35%;
+}
+
+#seven {
+	position: relative;
+	left: 30%;
+	top: 35%;
+}
+
+#eight {
+	position: relative;
+	left: 32%;
+	top: 35%;
+}
+
+#nine {
+	position: relative;
+	left: 35%;
+	top: 35%;
+}
+
+#ten {
+	position: relative;
+	left: 32%;
+	top: 35%;
+}
+
+.footer {
+	position: absolute;
+	left: 50%;
+	bottom: -300px;
+	transform: translateX(-50%);
+	color: white;
+
+}
+
+.footer a {
+	color: white;
+	font-weight: bolder;
+}
+
+.content {
+	height: 1080px;
+}
